@@ -9,8 +9,8 @@ function App() {
    useEffect(()=>{
     fetch(`https://jsonplaceholder.typicode.com/posts`)
     .then(res=>res.json())
-    .then(res=>{
-      setPost(res)})
+    .then(data=>{
+      setPost(data)})
   },[])
   const searchFunction=(search)=>{
    setPost(post.filter((e)=>{
