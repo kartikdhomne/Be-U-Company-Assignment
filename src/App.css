@@ -12,6 +12,39 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.cardlist{
+  display:"flex";
+  flex-direction:"row";
+  flex-wrap:"wrap"
+}
+.card{
+  border: 2px solid grey;
+  margin-top: 30px;
+}
+.searchbox{
+  margin-top: 50px;
+  width: 300px;
+  height: 40px;
+  border-radius: 50px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+.btn{
+  margin-top: 50px;
+  width: 100px;
+  height: 40px;
+  border-radius: 50px;
+  border: 1px solid gray;
+  background: rgb(11, 152, 207);
+  font-weight: bolder;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.btn:hover{
+  background: green;
+}
 
 .App-header {
   background-color: #282c34;
